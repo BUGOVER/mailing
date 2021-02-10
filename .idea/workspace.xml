@@ -2,69 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60bbde43-adc6-434f-91f7-7a0f39f3ade5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Console/Commands/AddListUser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Console/Commands/UpdateStatusUser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/AssignGuard.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Mailing/AddUserRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Mailing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mailing/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mailing/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mailing/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mailing/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mailing/base/Form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mailing/base/Model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mailing/base/Service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mailing/common/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mailing/components/Navbar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mailing/components/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mailing/plugins/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mailing/plugins/routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mailing/sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mailing/views/Auth.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mailing/views/Mailing.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mailing/webpack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mailing/webpack.prod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_02_09_111803_create_mailings_table.php.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_02_09_121353_create_admins_table.php.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_02_09_121542_add_foreign_keys_to_mailings_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeders/AdminTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin-corporate/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin-super/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@mdi/materialdesignicons-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@mdi/materialdesignicons-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@mdi/materialdesignicons-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@mdi/materialdesignicons-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mailing/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mailing/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layout/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/mailing.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Mailing.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Mailing.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/cors.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/cors.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/queue.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/mailing/models/UserModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -432,10 +372,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="116" y="-18" width="1720" height="880" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1612790379397" />
-    <state x="467" y="61" width="1195" height="913" key="find.popup" timestamp="1612776271502">
+    <state x="467" y="61" width="1195" height="913" key="find.popup" timestamp="1612937740678">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="467" y="61" width="1195" height="913" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1612776271502" />
+    <state x="467" y="61" width="1195" height="913" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1612937740678" />
     <state x="624" y="254" width="672" height="677" key="run.anything.popup" timestamp="1612873267779">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

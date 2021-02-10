@@ -3,11 +3,11 @@
 const mix = require('laravel-mix');
 const CompressionPlugin = require('compression-webpack-plugin');
 
-mix.js('assets/admin-corporate/app.js', 'public/admin-corporate/js/app.js')
-    .sass('assets/admin-corporate/sass/app.scss', 'public/admin-corporate/css/app.css')
+mix.js('assets/mailing/app.js', 'public/mailing/js/app.js')
+    .sass('assets/mailing/sass/app.scss', 'public/mailing/css/app.css')
     .webpackConfig({
         output: {
-            chunkFilename: 'admin-corporate/chunk/[name].js',
+            chunkFilename: 'mailing/chunk/[name].js',
         },
         module: {
             rules: [
