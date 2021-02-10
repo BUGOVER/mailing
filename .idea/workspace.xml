@@ -30,6 +30,7 @@
       <change afterPath="$PROJECT_DIR$/database/migrations/2021_02_09_111803_create_mailings_table.php.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/database/migrations/2021_02_09_121353_create_admins_table.php.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/database/migrations/2021_02_09_121542_add_foreign_keys_to_mailings_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeders/AdminTableSeeder.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/admin-corporate/js/app.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/admin-super/js/app.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@mdi/materialdesignicons-webfont.eot" afterDir="false" />
@@ -56,6 +57,7 @@
       <change beforePath="$PROJECT_DIR$/config/cors.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/cors.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/queue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/mailing/models/UserModel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" />
@@ -275,12 +277,14 @@
       <command value="artisan make:command AddListUser" />
       <command value="artisan make:command UpdateStatusUser" />
       <command value="a add_list  3443" />
-      <command value="a add_list " />
       <command value="a update_status" />
       <command value="a make:migration 2014_10_12_000000_create_mailings_table.php" />
       <command value="a make:migration create_admins_table.php" />
       <command value="a make:migration add_foreign_keys_to_mailings_table" />
       <command value="a migrate:fresh" />
+      <command value="a add_list " />
+      <command value="a make:seeder AdminTableSeeder" />
+      <command value="a migrate:fresh --seed" />
     </option>
   </component>
   <component name="RunManager" selected="npm.watch">
@@ -344,22 +348,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="743" y="425" key="FrameworkEditDialogDimensionKey/0.0.1920.1050@0.0.1920.1050" timestamp="1612780219805" />
-    <state width="1475" height="973" key="GridCell.Tab.0.bottom" timestamp="1612873061684">
+    <state width="1475" height="973" key="GridCell.Tab.0.bottom" timestamp="1612875254631">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1475" height="973" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1612873061684" />
-    <state width="1475" height="973" key="GridCell.Tab.0.center" timestamp="1612873061684">
+    <state width="1475" height="973" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1612875254631" />
+    <state width="1475" height="973" key="GridCell.Tab.0.center" timestamp="1612875254630">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1475" height="973" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1612873061684" />
-    <state width="1475" height="973" key="GridCell.Tab.0.left" timestamp="1612873061683">
+    <state width="1475" height="973" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1612875254630" />
+    <state width="1475" height="973" key="GridCell.Tab.0.left" timestamp="1612875254630">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1475" height="973" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1612873061683" />
-    <state width="1475" height="973" key="GridCell.Tab.0.right" timestamp="1612873061684">
+    <state width="1475" height="973" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1612875254630" />
+    <state width="1475" height="973" key="GridCell.Tab.0.right" timestamp="1612875254630">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1475" height="973" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1612873061684" />
+    <state width="1475" height="973" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1612875254630" />
     <state width="1533" height="384" key="GridCell.Tab.1.bottom" timestamp="1612547102506">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -416,10 +420,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="467" y="188" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1612780220604" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1612795908459">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1612873263234">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1050@0.0.1920.1050" timestamp="1612795908459" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1050@0.0.1920.1050" timestamp="1612873263234" />
     <state x="733" y="418" key="SymfonyComponentCompositeDataDialog" timestamp="1612449643968">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -432,10 +436,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="467" y="61" width="1195" height="913" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1612776271502" />
-    <state x="624" y="254" width="672" height="677" key="run.anything.popup" timestamp="1612873059580">
+    <state x="624" y="254" width="672" height="677" key="run.anything.popup" timestamp="1612873267779">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="624" y="254" width="672" height="677" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1612873059580" />
+    <state x="624" y="254" width="672" height="677" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1612873267779" />
     <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1612873045607">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
