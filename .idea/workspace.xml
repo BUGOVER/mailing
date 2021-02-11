@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60bbde43-adc6-434f-91f7-7a0f39f3ade5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Mailing.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Mailing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-    </list>
+    <list default="true" id="60bbde43-adc6-434f-91f7-7a0f39f3ade5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -181,8 +177,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.env" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Middleware" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
@@ -217,14 +219,17 @@
       <command value="artisan make:command AddListUser" />
       <command value="artisan make:command UpdateStatusUser" />
       <command value="a add_list  3443" />
-      <command value="a update_status" />
       <command value="a make:migration 2014_10_12_000000_create_mailings_table.php" />
       <command value="a make:migration create_admins_table.php" />
       <command value="a make:migration add_foreign_keys_to_mailings_table" />
       <command value="a migrate:fresh" />
-      <command value="a add_list " />
       <command value="a make:seeder AdminTableSeeder" />
+      <command value="a migrate --seed" />
       <command value="a migrate:fresh --seed" />
+      <command value="a update_status" />
+      <command value="a config:cache" />
+      <command value="a config:clear" />
+      <command value="a add_list " />
     </option>
   </component>
   <component name="RunManager" selected="npm.watch">
@@ -256,6 +261,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="556" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612937980407">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="556" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1612937980407" />
     <state x="738" y="351" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612449471868">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -288,22 +297,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="743" y="425" key="FrameworkEditDialogDimensionKey/0.0.1920.1050@0.0.1920.1050" timestamp="1612780219805" />
-    <state width="1475" height="973" key="GridCell.Tab.0.bottom" timestamp="1612875254631">
+    <state width="1575" height="973" key="GridCell.Tab.0.bottom" timestamp="1613025153358">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1475" height="973" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1612875254631" />
-    <state width="1475" height="973" key="GridCell.Tab.0.center" timestamp="1612875254630">
+    <state width="1575" height="973" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1613025153358" />
+    <state width="1575" height="973" key="GridCell.Tab.0.center" timestamp="1613025153358">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1475" height="973" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1612875254630" />
-    <state width="1475" height="973" key="GridCell.Tab.0.left" timestamp="1612875254630">
+    <state width="1575" height="973" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1613025153358" />
+    <state width="1575" height="973" key="GridCell.Tab.0.left" timestamp="1613025153358">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1475" height="973" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1612875254630" />
-    <state width="1475" height="973" key="GridCell.Tab.0.right" timestamp="1612875254630">
+    <state width="1575" height="973" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1613025153358" />
+    <state width="1575" height="973" key="GridCell.Tab.0.right" timestamp="1613025153358">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1475" height="973" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1612875254630" />
+    <state width="1575" height="973" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1613025153358" />
     <state width="1533" height="384" key="GridCell.Tab.1.bottom" timestamp="1612547102506">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -372,14 +381,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="116" y="-18" width="1720" height="880" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1612790379397" />
-    <state x="467" y="61" width="1195" height="913" key="find.popup" timestamp="1612937740678">
+    <state x="467" y="61" width="1195" height="913" key="find.popup" timestamp="1612937753486">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="467" y="61" width="1195" height="913" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1612937740678" />
-    <state x="624" y="254" width="672" height="677" key="run.anything.popup" timestamp="1612873267779">
+    <state x="467" y="61" width="1195" height="913" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1612937753486" />
+    <state x="624" y="254" width="672" height="677" key="run.anything.popup" timestamp="1613025150871">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="624" y="254" width="672" height="677" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1612873267779" />
+    <state x="624" y="254" width="672" height="677" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1613025150871" />
     <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1612873045607">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

@@ -22,7 +22,7 @@ Route::middleware(['guest'])->namespace('App\Http\Controllers')->group(
     }
 );
 
-Route::middleware([/*'auth:admin'*/])->namespace('App\Http\Controllers')->prefix('mailings')->group(
+Route::middleware(['auth:admin'])->namespace('App\Http\Controllers')->prefix('mailings')->group(
     function () {
         Route::get('/', 'Controller@mailingIndex')->name('index_mailing');
         Route::post('add_user', 'Controller@addUser')->name('add_user');
