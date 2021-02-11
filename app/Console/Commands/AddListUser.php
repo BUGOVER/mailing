@@ -59,7 +59,7 @@ class AddListUser extends Command
         $users = User::with('mailing')->get();
 
         foreach ($users as $user) {
-            if ($user->mailing->hash && $mailchimp->lists->getListMember($list_id, $user->mailing->hash)) {
+            if ($user->mailing && $user->mailing->hash && $mailchimp->lists->getListMember($list_id, $user->mailing->hash)) {
                 $this->info('Users already added');
                 continue;
             }

@@ -21,8 +21,8 @@ class CreateMailingsTable extends Migration
         Schema::create('mailings', function (Blueprint $table) {
             $table->increments('mailing_id')->index('mailings_mailing_id');
             $table->unsignedInteger('user_id')->index('mailings_user_id');
-            $table->string('title',100);
-            $table->string('body',1000);
+            $table->string('title',100)->nullable();
+            $table->string('body',1000)->nullable();
             $table->string('hash',32)->unique();
             $table->timestamps();
         });

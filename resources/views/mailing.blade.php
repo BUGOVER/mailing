@@ -1,5 +1,7 @@
 @extends('layout.index')
 
 @section('content')
-    <router-view></router-view>
+    @auth()
+        <router-view></router-view>
+    @endauth
 @endsection

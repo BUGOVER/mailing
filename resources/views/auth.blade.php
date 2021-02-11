@@ -1,5 +1,7 @@
 @extends('layout.index')
 
 @section('content')
-    <auth :auth="{{ json_encode(route('login')) }}"></auth>
+    @guest()
+        <auth :auth="{{ json_encode(route('login')) }}"></auth>
+    @endguest
 @endsection
